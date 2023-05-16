@@ -49,7 +49,6 @@ header, ul, li, a {
     background-color: #686868;
     border: 1px solid #6b6b6b;
     transition-duration: 0.1s;
-    border: 1px solid #686868;
     border-radius: 20px;
   }
   
@@ -113,7 +112,6 @@ header, ul, li, a {
   .img-container{
     min-width: 598.4px;
     max-width: 800px;
-    border: 2px solid #3e3e3e;
   }
 
   .tweet{
@@ -121,7 +119,6 @@ header, ul, li, a {
   }
 
   .tweet:hover{
-    filter: brightness(80%);
     cursor: pointer;
   }
 
@@ -168,4 +165,27 @@ h1, h2{
 }
 .featuredimg{
     border-radius: 20px;
+}
+
+.nav-lifeatured{
+  padding: 1px;
+  border-radius: 20px;
+  font-weight: 700;
+  align-self: center;
+  border: 1px solid black;
+  z-index: 999;
+  background-color:rgb(124, 31, 145);
+}
+
+.nav-lifeatured:hover{
+  background-color:rgb(172, 29, 204);
+  transition-duration: 0.5s;
+  border: 1px solid rgb(239, 15, 235)
+}
+
+.nav-lifeatured:active {
+  background-color:rgb(208, 0, 255);
+  border: 1px solid #bf00ff;
+  transition-duration: 0.1s;
+  border-radius: 20px;
 }
